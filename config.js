@@ -604,6 +604,22 @@ window.CONFIG = {
       },
       textColor: '#000'
     },
+    {
+      category: 'Misc',
+      name: 'FMHY',
+      triggers: [
+        'fmhy',
+        'freemediaheckyeah'
+      ],
+      url: 'https://fmhy.net',
+      normalisedURL: 'fmhy.net',
+      bgColor: {
+        type: 'solid',
+        color: '#fc3f1d'
+      },
+      textColor: '#000',
+      pinned: true
+    },
   ],
   commands: [
     {
