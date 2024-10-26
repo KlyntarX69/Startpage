@@ -611,7 +611,9 @@ window.CONFIG = {
       key: 'KeyF',
       triggers: [
         'fmhy',
-        'freemediaheckyeah'
+        'freemediaheckyeah',
+	'f',
+	'fm',
       ],
       url: 'https://fmhy.net',
       normalisedURL: 'fmhy.net',
@@ -622,6 +624,27 @@ window.CONFIG = {
       textColor: '#000',
       pinned: true
     },
+    {
+      category: 'Search',
+      name: 'Qwant',
+      triggers: [
+        'qw',
+        'qwant'
+      ],
+      url: 'https://www.qwant.com',
+      normalisedURL: 'qwant.com',
+      commands: {
+        search: {
+          template: '{@}/?q={$}'
+        }
+      },
+      bgColor: {
+        type: 'solid',
+        color: '#fc3f1d'
+      },
+      textColor: '#000'
+    },
+
   ],
   commands: [
     {
