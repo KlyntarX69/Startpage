@@ -629,22 +629,22 @@ window.CONFIG = {
       name: 'Qwant',
       triggers: [
         'qw',
-        'qwant'
+        'qwant',
       ],
       url: 'https://www.qwant.com',
       normalisedURL: 'qwant.com',
       commands: {
         search: {
-          template: '{@}/?q={$}'
-        }
+          template: '{@}/?q={$}',
+        },
       },
       bgColor: {
-        type: 'solid',
-        color: '#fc3f1d'
+        type: 'gradient',
+        gradientType: 'linear',
+        colors: ['#3ab0f1', '#2351dd', '#40d1da'],
       },
-      textColor: '#000'
+      textColor: '#e8e8e8',
     },
-
   ],
   commands: [
     {
