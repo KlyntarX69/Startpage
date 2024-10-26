@@ -607,6 +607,8 @@ window.CONFIG = {
     {
       category: 'Misc',
       name: 'FMHY',
+      icon: 'fmhy',
+      key: 'KeyF',
       triggers: [
         'fmhy',
         'freemediaheckyeah'
