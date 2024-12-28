@@ -604,6 +604,27 @@ window.CONFIG = {
       },
       textColor: '#000'
     },
+    {
+      category: 'Search',
+      name: 'Google',
+      triggers: [
+        'g',
+        'goog',
+        'gog'
+      ],
+      url: 'https://google.com',
+      normalisedURL: 'google.com',
+      commands: {
+        search: {
+          template: '{@}/?q={$}'
+        }
+      },
+      bgColor: {
+        type: 'solid',
+        color: '#aaa'
+      },
+      textColor: '#fff'
+    },
   ],
   commands: [
     {
