@@ -116,7 +116,6 @@ window.CONFIG = {
       url: 'https://github.com',
       normalisedURL: 'github.com',
       triggers: [
-        'g',
         'git',
         'github'
       ],
@@ -431,8 +430,7 @@ window.CONFIG = {
       triggers: [
         'gd',
         'drive',
-        'gdrive',
-        'google',
+        'gdrive'
       ],
       icon: 'gdrive',
       url: 'https://drive.google.com',
