@@ -116,7 +116,6 @@ window.CONFIG = {
       url: 'https://github.com',
       normalisedURL: 'github.com',
       triggers: [
-        'g',
         'git',
         'github'
       ],
@@ -432,7 +431,6 @@ window.CONFIG = {
         'gd',
         'drive',
         'gdrive',
-        'google',
       ],
       icon: 'gdrive',
       url: 'https://drive.google.com',
@@ -644,6 +642,28 @@ window.CONFIG = {
         colors: ['#3ab0f1', '#2351dd', '#40d1da'],
       },
       textColor: '#e8e8e8',
+    },
+    {
+      category: 'Search',
+      name: 'Google',
+      triggers: [
+        'g',
+        'goog',
+        'gog',
+	'google'
+      ],
+      url: 'https://google.com',
+      normalisedURL: 'google.com',
+      commands: {
+        search: {
+          template: '{@}/?q={$}'
+        }
+      },
+      bgColor: {
+        type: 'solid',
+        color: '#aaa'
+      },
+      textColor: '#fff'
     },
   ],
   commands: [
